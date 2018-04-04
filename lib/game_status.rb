@@ -47,5 +47,5 @@ match = [0,2,4,8]
 
 
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
 puts draw?(board)
