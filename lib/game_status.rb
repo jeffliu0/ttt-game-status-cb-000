@@ -41,9 +41,9 @@ def draw?(board)
     return true
   elsif won?(board)
     return false
-  ende
+  end
 end
 
 
-board = ["X", "X", "X", "X", "X", "X", "X", "X", "O"]
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts draw?(board)
