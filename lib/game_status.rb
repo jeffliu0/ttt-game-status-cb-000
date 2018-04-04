@@ -48,13 +48,13 @@ end
 abc = [1,2,3,4,5,6,7]
 bcd = [1,2,3,7]
 
-puts "Check #{abc && bcd}""
+puts "Check #{abc && bcd}"
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 match = board.size.times.select{|i| board[i] == "X"}
 puts "This is orginial match: #{match}"
 WIN_COMBINATIONS.each do |x|
   puts "This is array: #{x}"
-  puts "Hmmm... #{match && x}"
+  puts "Hmmm... #{match && x = x}"
 end
 #puts draw?(board)
