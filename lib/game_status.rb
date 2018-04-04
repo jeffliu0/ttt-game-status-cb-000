@@ -10,7 +10,7 @@ WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,4,8], [2,4,6],
 def won?(board)
    match = board.size.times.select{|i| board[i] == "X"}
    match2 = board.size.times.select{|i| board[i] == "O"}
-   puts match
+
    if(match.length >= 3 || match2.length >= 3)
      return WIN_COMBINATIONS.any?{|combo| (combo && match == match) ||
        combo && match2 == match2}
