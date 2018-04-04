@@ -50,6 +50,6 @@ board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 match = board.size.times.select{|i| board[i] == "X"}
 WIN_COMBINATIONS.each do |x|
   puts "This is array: #{x}"
-  puts "Hmmm... #{match && match}"
+  puts "Hmmm... #{match && x}"
 end
 puts draw?(board)
