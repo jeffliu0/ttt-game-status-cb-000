@@ -22,6 +22,8 @@ def won?(board)
      WIN_COMBINATIONS.any?{|combo| (combo && match2 == match2)}
      return match2
    end
+
+   return false
 end
 
 def full?(board)
