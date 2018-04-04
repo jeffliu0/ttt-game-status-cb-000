@@ -12,4 +12,4 @@ def won?(board)
    puts match
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
