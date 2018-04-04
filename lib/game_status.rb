@@ -17,7 +17,7 @@ def won?(board)
 
    if match.length >= 3 &&
    WIN_COMBINATIONS.any?{|combo| (combo && match == match)}
-     return true
+     return match
    elsif match2.length >= 3 &&
      WIN_COMBINATIONS.any?{|combo| (combo && match2 == match2)}
      return match2
