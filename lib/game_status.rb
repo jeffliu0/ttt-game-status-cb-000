@@ -48,6 +48,7 @@ end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 match = board.size.times.select{|i| board[i] == "X"}
+puts "This is orginial match: #{match}"
 WIN_COMBINATIONS.each do |x|
   puts "This is array: #{x}"
   puts "Hmmm... #{match && x}"
