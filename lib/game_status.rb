@@ -43,6 +43,12 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  if draw? || won? || full?
+    return true
+  else
+    return false
+  end
 match = [0,2,4,8]
 
 
