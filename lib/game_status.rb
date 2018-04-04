@@ -56,4 +56,4 @@ def winner?(board)
 end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts winner?(board)
+winner?(board)
