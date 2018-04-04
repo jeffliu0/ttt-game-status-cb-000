@@ -14,7 +14,9 @@ def won?(board)
    if(match.length == 3 || match2.length == 3)
      return WIN_COMBINATIONS.any?{|combo| (combo && match == match) ||
        combo && match2 == match2}
-   end
+  else
+   return nil
+ end
 end
 
 board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
