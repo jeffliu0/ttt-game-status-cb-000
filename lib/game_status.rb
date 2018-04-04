@@ -15,5 +15,5 @@ def won?(board)
    combo && match2 == match2}
 end
 
-board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
+board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 puts won?(board)
