@@ -24,5 +24,14 @@ def won?(board)
    end
 end
 
+def full?(board)
+  if(board.size.times.select{|i| board[i] == "X" ||board[i] == "O" }.size == 9)
+    return true
+  else
+    return false
+  end
+end
+
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts won?(board)
