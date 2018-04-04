@@ -12,6 +12,7 @@ def won?(board)
    match2 = board.size.times.select{|i| board[i] == "O"}
 
    if !board.any?
+     puts "hi"
      return false
    end
 
