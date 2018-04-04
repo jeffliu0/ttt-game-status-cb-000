@@ -15,7 +15,7 @@ def won?(board)
    if !board.include?("X") || !board.include?("O")
      return nil
    end
-   if match.length >= 3 &&
+   if match.length >= 3 
    WIN_COMBINATIONS.each do |combo|
      if match && combo == combo
        return combo
