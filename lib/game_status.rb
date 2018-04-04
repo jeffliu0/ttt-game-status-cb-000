@@ -54,5 +54,5 @@ match = [0,2,4,8]
 
 
 
-board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
+board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
 puts over?(board)
