@@ -44,7 +44,7 @@ def draw?(board)
 end
 
 def over?(board)
-  if draw? || won? || full?
+  if draw?(board) || won?(board) || full?(board)
     return true
   else
     return false
@@ -55,4 +55,4 @@ match = [0,2,4,8]
 
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-puts draw?(board)
+puts over?(board)
