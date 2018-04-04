@@ -33,5 +33,5 @@ def full?(board)
 end
 
 
-board = ["X", "X", "X", "X", "X", "X", "X", "X", X"]
-puts won?(board)
+board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+puts full?(board)
