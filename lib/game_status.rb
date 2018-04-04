@@ -12,5 +12,5 @@ def won?(board)
    return WIN_COMBINATIONS.any?{|combo| combo && match == match}
 end
 
-board = ["X", "X", "X", " ", " ", " ", "X", " ", " "]
-won?(board)
+board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
+puts won?(board)
