@@ -57,3 +57,4 @@ end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 winner?(board)
+won?(board)
