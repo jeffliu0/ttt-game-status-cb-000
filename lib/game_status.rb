@@ -11,3 +11,5 @@ def won?(board)
    match = board.size.times.select{|x| x == "X"}
    puts match
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
