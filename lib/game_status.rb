@@ -12,7 +12,7 @@ def won?(board)
    match2 = board.size.times.select{|i| board[i] == "O"}
 
    WIN_COMBINATIONS.each do |x|
-     puts x
+     puts "This is array: #{x}"
    end
 
    puts "This is original: #{match}"
