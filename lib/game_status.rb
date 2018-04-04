@@ -46,7 +46,7 @@ end
 match = [1,2,4,8]
 
 WIN_COMBINATIONS.each do |x|
-  puts "Is this a match? #{x && match == x}"
+  puts "Is this a match? #{x && match}"
 end
 
 
