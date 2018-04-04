@@ -47,6 +47,8 @@ end
 
 abc = [1,2,3,4,5,6,7]
 bcd = [1,2,3,7]
+
+puts abc && bcd 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 match = board.size.times.select{|i| board[i] == "X"}
 puts "This is orginial match: #{match}"
