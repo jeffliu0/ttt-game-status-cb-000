@@ -49,9 +49,10 @@ def over?(board)
   else
     return false
   end
+end
 match = [0,2,4,8]
 
 
 
-board = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts draw?(board)
