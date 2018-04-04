@@ -45,6 +45,8 @@ def draw?(board)
   end
 end
 
+match = [0, 2, 4, 8]
+de = [0,4,8]
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
 puts won?(board)
