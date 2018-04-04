@@ -45,9 +45,6 @@ end
 
 match = [0,2,4,8]
 
-WIN_COMBINATIONS.each do |x|
-  puts "Is this a match? #{match & x == x}"
-end
 
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
