@@ -53,6 +53,7 @@ match = [0,2,4,8]
 
 def winner?(board)
   if won?(board) == false
+    puts "Hi"
     return nil
   end
   return board[won?(board)[0]]
