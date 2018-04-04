@@ -51,7 +51,7 @@ def over?(board)
 end
 match = [0,2,4,8]
 
-def winner?(board)
+def winner(board)
   if won?(board) == false
     return nil
   end
