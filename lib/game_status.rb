@@ -12,7 +12,7 @@ def won?(board)
    match2 = board.size.times.select{|i| board[i] == "O"}
 
    if !board.include?("X") || !board.include?("O")
-     return false
+     return nil
    end
 
    if match.length >= 3 &&
