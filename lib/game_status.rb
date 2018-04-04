@@ -13,6 +13,7 @@ def won?(board)
 
    if !board.any?
      return false
+   end
 
    if match.length >= 3 &&
    WIN_COMBINATIONS.any?{|combo| (combo && match == match)}
