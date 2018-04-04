@@ -48,5 +48,7 @@ end
 match = [0, 2, 4, 8]
 de = [0,4,8]
 
+puts match&&de
+
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
 puts won?(board)
