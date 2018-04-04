@@ -11,8 +11,7 @@ def won?(board)
    match = board.size.times.select{|i| board[i] == "X"}
    match2 = board.size.times.select{|i| board[i] == "O"}
 
-   if !board.any?
-     puts "hi"
+   if board.any?("X") || board.any?("O")
      return false
    end
 
