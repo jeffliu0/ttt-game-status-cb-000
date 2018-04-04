@@ -20,7 +20,7 @@ def won?(board)
    WIN_COMBINATIONS.any?{|combo| (combo && match == combo)}
      return match
    elsif match2.length >= 3 &&
-     WIN_COMBINATIONS.any?{|combo| (combo && match2 == match2)}
+     WIN_COMBINATIONS.any?{|combo| (combo && match2 == combo)}
      return match2
    end
 
@@ -51,10 +51,4 @@ bcd = [1,2,3,7]
 puts "Check #{abc && bcd}"
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-match = board.size.times.select{|i| board[i] == "X"}
-puts "This is orginial match: #{match}"
-WIN_COMBINATIONS.each do |x|
-  puts "This is array: #{x}"
-  puts "Hmmm... #{match && x == x}"
-end
 #puts draw?(board)
