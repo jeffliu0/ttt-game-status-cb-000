@@ -45,10 +45,6 @@ def draw?(board)
   end
 end
 
-abc = [1,2,3,4,5,6,7]
-bcd = [1,2,3,7]
-
-puts "Check #{abc && bcd}"
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
 puts won?(board)
