@@ -11,6 +11,7 @@ def won?(board)
    match = board.size.times.select{|i| board[i] == "X"}
    match2 = board.size.times.select{|i| board[i] == "O"}
    puts match
+   puts match 2
    return WIN_COMBINATIONS.any?{|combo| (combo && match == match) ||
    combo && match2 == match2}
 end
