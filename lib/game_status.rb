@@ -20,7 +20,7 @@ def won?(board)
      return combo
    elsif match2.length >= 3 &&
      WIN_COMBINATIONS.any?{|combo| (match2 && combo== combo)}
-     return match2
+     return combo
    end
 
    return false
