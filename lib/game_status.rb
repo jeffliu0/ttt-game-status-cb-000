@@ -11,10 +11,6 @@ def won?(board)
    match = board.size.times.select{|i| board[i] == "X"}
    match2 = board.size.times.select{|i| board[i] == "O"}
 
-   WIN_COMBINATIONS.each do |x|
-     puts "This is array: #{x}"
-   end
-
    puts "This is original: #{match}"
    if !board.include?("X") || !board.include?("O")
      return nil
