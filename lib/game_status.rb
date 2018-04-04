@@ -52,7 +52,7 @@ end
 match = [0,2,4,8]
 
 def winner?(board)
-  if won?(board)!= nil || !won?(board)
+  if won?(board)!= nil || won?(board) != false
     return board[won?(board)[0]]
   else
     return nil
