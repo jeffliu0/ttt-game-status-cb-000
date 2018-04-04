@@ -12,8 +12,9 @@ def won?(board)
    match2 = board.size.times.select{|i| board[i] == "O"}
    puts match
    if(match.length == 3 || match2.length == 3)
-   return WIN_COMBINATIONS.any?{|combo| (combo && match == match) ||
-   combo && match2 == match2}
+     return WIN_COMBINATIONS.any?{|combo| (combo && match == match) ||
+       combo && match2 == match2}
+     end
 end
 
 board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
