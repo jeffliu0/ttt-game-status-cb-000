@@ -52,7 +52,7 @@ end
 match = [0,2,4,8]
 
 def winner?(board)
-  puts won?(board)
+  return won?(board)[0]
 end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
