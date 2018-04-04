@@ -52,7 +52,7 @@ def over?(board)
 end
 match = [0,2,4,8]
 
-
+def winner?(board)
 
 board = ["X", " ", "X", " ", "X", " ", "O", "O", " "]
 puts over?(board)
