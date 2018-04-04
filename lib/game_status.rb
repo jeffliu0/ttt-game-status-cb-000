@@ -20,6 +20,7 @@ def won?(board)
      if match && combo == combo || match2 &&combo == combo
        return combo
      end
+   end
 
    return false
 end
