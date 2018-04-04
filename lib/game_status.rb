@@ -11,7 +11,7 @@ def won?(board)
    match = board.size.times.select{|i| board[i] == "X"}
    match2 = board.size.times.select{|i| board[i] == "O"}
 
-   put "This is original: #{match}"
+   puts "This is original: #{match}"
    if !board.include?("X") || !board.include?("O")
      return nil
    end
