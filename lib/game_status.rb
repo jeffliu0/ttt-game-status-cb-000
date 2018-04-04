@@ -43,7 +43,7 @@ def draw?(board)
   end
 end
 
-match = [0, 2, 4, 8]
+match = [0, 2, 4, 7]
 
 WIN_COMBINATIONS.each do |x|
   puts "Is this a match? #{match && x == x}"
