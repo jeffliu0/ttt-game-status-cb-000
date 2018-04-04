@@ -45,9 +45,10 @@ def draw?(board)
 end
 
 match = [0, 2, 4, 8]
-de = [0,4,8]
 
-puts match&&de == de
+WIN_COMBINATIONS.each do |x|
+  puts "Is this a match? #{x && match}"
+
 
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
 puts won?(board)
