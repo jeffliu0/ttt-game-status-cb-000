@@ -45,5 +45,5 @@ def draw?(board)
 end
 
 
-board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
+board = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
 puts draw?(board)
