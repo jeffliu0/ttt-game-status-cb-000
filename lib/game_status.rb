@@ -50,5 +50,5 @@ bcd = [1,2,3,7]
 
 puts "Check #{abc && bcd}"
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-#puts draw?(board)
+board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
+puts draw?(board)
