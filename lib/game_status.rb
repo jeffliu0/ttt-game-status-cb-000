@@ -15,7 +15,7 @@ def won?(board)
    if !board.include?("X") || !board.include?("O")
      return nil
    end
-   puts "Should be true #{WIN_COMBINATIONS.any?{|combo| (combo && match == combo)}"
+   puts "Should be true #{WIN_COMBINATIONS.any?{|combo| (combo && match == combo)}}"
    if match.length >= 3 &&
    WIN_COMBINATIONS.any?{|combo| (combo && match == combo)}
      return match
